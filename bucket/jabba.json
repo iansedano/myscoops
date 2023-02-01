@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jabba-Team/jabba/releases/download/0.12.0/jabba-0.12.0-windows-amd64.exe",
+            "url": "https://github.com/Jabba-Team/jabba/releases/download/0.12.0/jabba-0.12.0-windows-amd64.exe#/jabba.exe",
             "hash": "E7CFA9094D5938C6DFADA748C5AA5455607A7C0CE39320DC88258433957E7510",
             "pre_install": [
                 "ensure \"$dir\\bin\" | Out-Null",
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Jabba-Team/jabba/releases/download/$version/jabba-$version-windows-amd64.exe"
+                "url": "https://github.com/Jabba-Team/jabba/releases/download/$version/jabba-$version-windows-amd64.exe#/jabba.exe"
             }
         }
     }
