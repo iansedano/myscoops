@@ -1,12 +1,12 @@
 {
-    "version": "0.12.0",
+    "version": "0.12.1",
     "description": "Java Version Manager",
     "homepage": "https://github.com/Jabba-Team/jabba",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jabba-Team/jabba/releases/download/0.12.0/jabba-0.12.0-windows-amd64.exe#/jabba.exe",
-            "hash": "E7CFA9094D5938C6DFADA748C5AA5455607A7C0CE39320DC88258433957E7510",
+            "url": "https://github.com/Jabba-Team/jabba/releases/download/0.12.1/jabba-0.12.1-windows-amd64.exe#/jabba.exe",
+            "hash": "f920eabcb0994ea6a280f77f72f92d8a047a06c3f126c2875413b583819b6add",
             "pre_install": [
                 "ensure \"$dir\\bin\" | Out-Null",
                 "Move-Item \"$dir\\jabba.exe\" \"$dir\\bin\\jabba.exe\""
